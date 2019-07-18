@@ -4,6 +4,7 @@ body{
   color: white;
   font-size: 1.2em;
   margin: 0;
+  height: 100%;
 }
 
 li {
@@ -15,8 +16,8 @@ header{
   text-align: center;
 }
 footer{
-  position: absolute;
- bottom: 0;
+  position: fixed;
+bottom:0px;
   text-align: center;
   height: 70px;
   width:100%;
