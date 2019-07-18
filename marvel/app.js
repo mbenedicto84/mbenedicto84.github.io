@@ -1,5 +1,32 @@
+
+
 $(() => {
 
+//---------------------------------------------------------------Modal
+const $openBtn = $('#openModal');
+
+// Grabbing modal element
+const $modal = $('#modal');
+
+// Grabbing close button
+const $closeBtn = $('#close');
+
+
+const openModal = () => {
+  $modal.css('display', 'block');
+}
+const closeModal = () => {
+  $modal.css('display', 'none');
+}
+
+$openBtn.on('click', openModal);
+$closeBtn.on('click', closeModal);
+
+
+//---------------------------------------------------------------
+
+
+//--------------------------------------------------------------Ajax form submission
   $('form').on('submit',(event) => {
   const character = $('input[type="text"]').val();
   event.preventDefault()
@@ -23,4 +50,9 @@ $(() => {
 
 
   })
+
+
+
+
+
 })
