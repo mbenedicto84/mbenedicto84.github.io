@@ -34,7 +34,10 @@ list-style: none;
 
 
 
-
+a {
+  color: white;
+  text-decoration: none
+}
 
 a:hover{
 text-decoration: underline;
@@ -43,11 +46,36 @@ text-decoration: underline;
 input{
   margin: 20px;
 }
-.section1{
+.find{
   display: flex;
   justify-content: center;
   margin: 3%;
 
+}
+
+.info {
+display: block;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+
+}
+.section3 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.hulk {
+  margin: 0 auto;
+  text-align: center;
 }
 
 #marvelbtn{
