@@ -2,6 +2,11 @@ body{
   background-color: black;
   font-family: 'Marvel', sans-serif;
   color: white;
+  margin: 0;
+}
+
+li {
+  color: white:
 }
 
 header{
@@ -10,6 +15,47 @@ header{
   color: white;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 5em;
+  font-size: 3vw;
   font-weight: 900;
+}
+
+nav{
+display: flex;
+justify-content: center;
+  text-align: center;
+}
+
+ul, li {
+display: flex;
+margin: 10px;
+list-style: none;
+
+}
+
+
+
+
+
+a:hover{
+text-decoration: underline;
+}
+
+input{
+  margin: 20px;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+
+}
+
+#marvelbtn{
+  background-color: red;
+  width: 80px;
+  height: 40px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
 }
