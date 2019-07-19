@@ -14,6 +14,7 @@ const $closeBtn = $('#close');
 
 const openModal = () => {
   $modal.css('display', 'block');
+
 }
 const closeModal = () => {
   $modal.css('display', 'none');
@@ -21,8 +22,7 @@ const closeModal = () => {
 
 $openBtn.on('click', openModal);
 $closeBtn.on('click', closeModal);
-
-
+  setTimeout(openModal, 2000);
 //---------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ const closeModal2 = () => {
 $openBtn2.on('click', openModal2);
 $closeBtn2.on('click', closeModal2);
 
-
+  setTimeout(openModal2, 2000);
 //---------------------------------------------------------------
 
 
