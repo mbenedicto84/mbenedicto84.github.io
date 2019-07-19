@@ -103,6 +103,7 @@ const flight = superPower[Math.floor(Math.random()*superPower.length)];
 
     $('.power').html(name + ' you have recieved the super power of ' + flight );
 
+
   })
 
 
