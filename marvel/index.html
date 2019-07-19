@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+    <script charset="utf-8" src="app.js">
+    </script>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <header>
+        <img alt="" src="img/marvel.png">
+    </header>
+    <div id="modal">
+        <div id="modal-textbox">
+            <a href="#" id="close">Close</a>
+            <h1>Your Mission Shield Agent</h1>
+            <p>Using this interface that Peter Par... I mean Spider-Man built look up all the heroes and villains you can with this application. It will show you all the important information you need such as their background and publication history. Good Luck and don't let Director Fury down.</p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" target="_blank">HOME</a>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/List_of_Marvel_Comics_characters" target="_blank">LIST OF CHARACTER</a>
+            </li>
+            <li>
+                <a href="assemble.html" target="">ASSEMBLE</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+      <div class="carousel-container">
+
+                    <div class="carousel-button previousphoto">
+
+
+                    </div>
+
+                    <div class="marvel-images">
+                    <img src="img/battle.jpg" alt="marvel battle">
+                    <img src="img/big3.jpg" alt="big 3">
+                    <img src="img/spider.jpg" alt="spider-man">
+                    </div>
+
+                    <div class="carousel-button nextphoto">
+
+                    </div>
+                    </div>
+      <div class="formie">
+        <form class="find">
+            <input id='marvelfind' name="hero" type="text" value="Find Your Hero!!"><br>
+            <input id='marvelbtn' type="submit" value="Submit"> <button id="openModal">MISSION INFO !!!</button>
+        </form>
+      </div>
+        <div class="info">
+            <div class="section1">
+                <div class="hulk">
+                    <h1>NAME</h1>
+                    <div id="name"></div>
+                    <div class="ironman">
+                        <h1>Photo</h1>
+                        <div id="image"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="hulk">
+                    <h1>BIOGRAPHY</h1>
+                    <div id="bio"></div>
+                </div>
+            </div>
+            <div class="section3">
+                <div class="hulk">
+                    <h1>Comics</h1>
+                    <div id="comics"></div>
+                </div>
+                <div class="hulk">
+                    <h1>Series</h1>
+                    <div id="series"></div>
+                </div>
+                <div class="hulk">
+                    <h1>Events</h1>
+                    <div id="events"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="made">
+            MADE BY YOUR FRIENDLY NEIGHBORHOOD DEVELOPER
+        </div>
+    </footer>
+</body>
+</html>
