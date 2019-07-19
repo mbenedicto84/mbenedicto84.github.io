@@ -22,7 +22,7 @@ const closeModal = () => {
 
 $openBtn.on('click', openModal);
 $closeBtn.on('click', closeModal);
-  setTimeout(openModal, 2000);
+  setTimeout(openModal, 1000);
 //---------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ const closeModal2 = () => {
 $openBtn2.on('click', openModal2);
 $closeBtn2.on('click', closeModal2);
 
-  setTimeout(openModal2, 2000);
+  setTimeout(openModal2, 1000);
 //---------------------------------------------------------------
 
 
@@ -102,9 +102,6 @@ var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "S
 const flight = superPower[Math.floor(Math.random()*superPower.length)];
 
     $('.power').html(name + ' you have recieved the super power of ' + flight );
-
-
-
 
   })
 
