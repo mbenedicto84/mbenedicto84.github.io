@@ -26,6 +26,31 @@ $closeBtn.on('click', closeModal);
 //---------------------------------------------------------------
 
 
+//---------------------------------------------------------------Modal2
+const $openBtn2 = $('#openModal2');
+
+// Grabbing modal element
+const $modal2 = $('#modal2');
+
+// Grabbing close button
+const $closeBtn2 = $('#close2');
+
+
+const openModal2 = () => {
+  $modal2.css('display', 'block');
+}
+const closeModal2 = () => {
+  $modal2.css('display', 'none');
+}
+
+$openBtn2.on('click', openModal2);
+$closeBtn2.on('click', closeModal2);
+
+
+//---------------------------------------------------------------
+
+
+
 //--------------------------------------------------------------Ajax form submission
   $('form').on('submit',(event) => {
   const character = $('input[type="text"]').val();
@@ -62,9 +87,13 @@ $closeBtn.on('click', closeModal);
     }
   })
   })
+
 //------------------------------------------------------------Superpower
 
 // var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "Weilder of Infinity Stones"]
+
+
+
 
 
 })
