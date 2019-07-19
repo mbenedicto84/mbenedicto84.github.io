@@ -105,6 +105,42 @@ const flight = superPower[Math.floor(Math.random()*superPower.length)];
 
 
   })
+//----------------------------------------------------------carousel
+
+var currentImgIndex = 0
+var $currentImg = $('.marvel-images').children().eq(currentImgIndex)
+var numOfImages = $('.marvel-images').children().length - 1
+
+
+const $next = $('.nextphoto')
+const $previous = $('.previousphoto')
+
+$next.on('click', () => {
+  $currentImg.hide()
+
+  if(currentImgIndex < numOfImages) {
+
+    currentImgIndex++
+  } else {
+    currentImgIndex = 0
+  }
+
+  $currentImg = $('.marvel-images').children().eq(currentImgIndex)
+  $currentImg.show()
+})
+$previous.on('click', () => {
+  $currentImg.hide()
+
+  if (currentImgIndex > 0) {
+x
+  currentImgIndex--
+  } else {
+    currentImgIndex = numOfImages
+  }
+  $currentImg = $('.marvel-images').children().eq(currentImgIndex)
+
+  $currentImg.show()
+})
 
 
 })

@@ -243,6 +243,53 @@ letter-spacing: 3px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
+/* carousel */
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.container > img {
+  width: 100%;
+}
+
+/* ======= CAROUSEL SECTION ======== */
+.carousel-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.marvel-images {
+  width: 100%;
+  padding: 100;
+  box-sizing: border-box;
+
+}
+.marvel-images img {
+  width: 100%;
+  display: none;
+}
+.marvel-images img:first-of-type {
+  display: block;
+}
+.carousel-button {
+  align-self: center;
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px;
+}
+.carousel-button:hover {
+  cursor: pointer;
+  background: red;
+  color: white;
+}
+
+
 /* Responsive layout */
 
 /* Smartphones (landscape) ----------- */
