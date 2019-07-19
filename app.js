@@ -4,17 +4,10 @@ $(() => {
 
 //---------------------------------------------------------------Modal
 const $openBtn = $('#openModal');
-
-
 const $modal = $('#modal');
-
-
 const $closeBtn = $('#close');
-
-
 const openModal = () => {
   $modal.css('display', 'block');
-
 }
 const closeModal = () => {
   $modal.css('display', 'none');
@@ -22,20 +15,14 @@ const closeModal = () => {
 
 $openBtn.on('click', openModal);
 $closeBtn.on('click', closeModal);
-  setTimeout(openModal, 1000);
+  setTimeout(openModal, 100);
 //---------------------------------------------------------------
 
 
 //---------------------------------------------------------------Modal2
 const $openBtn2 = $('#openModal2');
-
-// Grabbing modal element
 const $modal2 = $('#modal2');
-
-// Grabbing close button
 const $closeBtn2 = $('#close2');
-
-
 const openModal2 = () => {
   $modal2.css('display', 'block');
 }
@@ -45,8 +32,7 @@ const closeModal2 = () => {
 
 $openBtn2.on('click', openModal2);
 $closeBtn2.on('click', closeModal2);
-
-  setTimeout(openModal2, 1000);
+  setTimeout(openModal2, 100);
 //---------------------------------------------------------------
 
 
