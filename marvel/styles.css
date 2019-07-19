@@ -51,6 +51,18 @@ input {
   font-size: 1.6em;
 }
 
+.nav2{
+  background-color: black;
+}
+
+.wallpaer{
+  background-image: url('img/assemble.jpg');
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .ironman {
   margin: 0 auto;
   text-align: center;
