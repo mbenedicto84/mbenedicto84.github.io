@@ -90,11 +90,23 @@ $closeBtn2.on('click', closeModal2);
 
 //------------------------------------------------------------Superpower
 
-var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "Weilder of Infinity Stones"]
+
+
 
 $('button').on('click',(event) => {
 const name = $('input[type="text"]').val();
-console.log(name);
+
+var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "Weilder of Infinity Stones"]
+ const flight = superPower[Math.floor(Math.random()*superPower.length)];
+
+const power = () => {
+  for (var i = 0; i < superPower.length; i++) {
+  return superPower[i]
+  }
+
+}
+
+console.log(flight);
 
   })
 
