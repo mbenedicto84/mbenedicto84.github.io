@@ -23,6 +23,13 @@ bottom:0px;
   width:100%;
   background-color: red;
 }
+#image {
+  margin: 0 auto;
+}
+
+#image > img {
+  width: 80%;
+}
 
 nav{
 display: flex;
@@ -52,6 +59,14 @@ input{
   margin: 20px;
 }
 
+.ironman{
+  margin: 0 auto;
+  text-align: center;
+
+}
+#image{
+  width: 40%
+}
 
 .find{
   display: flex;
@@ -83,6 +98,7 @@ width: 80%
 .section3 {
   display: flex;
   justify-content: center;
+  margin-bottom: 200px;
 
 }
 

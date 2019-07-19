@@ -36,6 +36,8 @@ $closeBtn.on('click', closeModal);
       url:'http://gateway.marvel.com/v1/public/characters?ts=thesoed&apikey=d46dd7f46b99a19182859d3ef5c9b862&hash=f34a04018516c1859aec3fcd30d5b44d&name=' + character,
       success: (data)=>{
         for (var i = 0; i < 20; i++) {
+          console.log(data);
+            image = (data.data.results[0].thumbnail.path)
              $div = $('<div>');
              $div.addClass('eve');
              $div2 = $('<div>');
@@ -46,9 +48,12 @@ $closeBtn.on('click', closeModal);
             $('#comics').append($div3);
           $('#name').html(data.data.results[0].name);
           $('#bio').html(data.data.results[0].description);
+
           $div3.append( '<div>' ).html(data.data.results[0].comics.items[i].name);
           $div2.append( '<div>' ).html(data.data.results[0].series.items[i].name);
           $div.append( '<div>' ).html(data.data.results[0].events.items[i].name);
+            $('#image').html('<img src="'+image+'.jpg">');
+           console.log(image);
 
 
 
