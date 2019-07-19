@@ -144,3 +144,10 @@ x
 
 
 })
+
+
+//-------------aded interval to photo
+setInterval(function(
+){
+$('.nextphoto').click()
+},2000)
