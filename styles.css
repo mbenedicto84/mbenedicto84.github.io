@@ -159,12 +159,13 @@ letter-spacing: 3px;
 /* ========================Buttons & Things=============== */
 #marvelbtn {
   background-color: red;
-  width: 80px;
+  width: 100px;
   height: 40px;
   font-family: 'Marvel', sans-serif;
   color: white;
   font-size: 16px;
   border: none;
+  padding: 10px;
 }
 #power {
   background-color: red;
