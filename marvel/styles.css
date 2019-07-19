@@ -55,6 +55,28 @@ input {
   background-color: black;
 }
 
+.formie{
+  display: flex;
+  justify-content: center;
+}
+
+.find {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  width: 50%;
+  margin: 3%;
+}
+
+
+
+
+.find2 {
+  display: flex;
+  justify-content: center;
+background: rgba(255, 255, 255, 0.8);
+}
+
 .wallpaer{
   background-image: url('img/assemble.jpg');
   background-position: center center;
@@ -68,11 +90,6 @@ input {
   text-align: center;
 }
 
-.find {
-  display: flex;
-  justify-content: center;
-  margin: 3%;
-}
 .made {
   margin: 20px;
 }
@@ -113,12 +130,13 @@ input {
 }
 #power {
   background-color: red;
-  width: 80px;
-  height: 40px;
+  width: 83px;
+  height: 43px;
   font-family: 'Marvel', sans-serif;
   color: white;
   font-size: 16px;
   border: none;
+  margin: 19px;
 }
 #openModal {
   background-color: red;

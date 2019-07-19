@@ -90,10 +90,13 @@ $closeBtn2.on('click', closeModal2);
 
 //------------------------------------------------------------Superpower
 
-// var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "Weilder of Infinity Stones"]
+var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "Weilder of Infinity Stones"]
 
+$('button').on('click',(event) => {
+const name = $('input[type="text"]').val();
+console.log(name);
 
-
+  })
 
 
 })
