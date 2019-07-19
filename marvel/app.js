@@ -94,19 +94,17 @@ $closeBtn2.on('click', closeModal2);
 
 
 $('button').on('click',(event) => {
+
 const name = $('input[type="text"]').val();
 
-var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "Weilder of Infinity Stones"]
- const flight = superPower[Math.floor(Math.random()*superPower.length)];
+var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "The Infinity Stones", "Adamantium Claws", "Super Soldier", "Super Secret Agent" ]
 
-const power = () => {
-  for (var i = 0; i < superPower.length; i++) {
-  return superPower[i]
-  }
+const flight = superPower[Math.floor(Math.random()*superPower.length)];
 
-}
+    $('.power').html(name + ' you have recieved the super power of ' + flight );
 
-console.log(flight);
+
+
 
   })
 

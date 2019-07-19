@@ -119,6 +119,35 @@ background: rgba(255, 255, 255, 0.8);
   padding: 30px;
   width:350px;
 }
+
+.fluid{
+display: flex;
+justify-content: center;
+margin-top: 5px;
+
+}
+.display{
+  background-image: url('img/explosion.png') ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+line-height: 20px;
+color: black;
+text-align: center;
+padding:35px;
+font-family: 'Bangers', cursive;
+letter-spacing: 3px;
+
+}
+
+.power{
+  margin: 0 auto;
+  margin-top: 160px;
+  padding-right: 35px;
+  width: 300px;
+
+}
 #marvelbtn {
   background-color: red;
   width: 80px;
