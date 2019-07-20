@@ -129,7 +129,7 @@ $previous.on('click', () => {
   $currentImg.hide()
 
   if (currentImgIndex > 0) {
-x
+
   currentImgIndex--
   } else {
     currentImgIndex = numOfImages
@@ -138,13 +138,11 @@ x
 
   $currentImg.show()
 })
-
-
-})
-
-
 //-------------aded interval to photo
 setInterval(function(
 ){
 $('.nextphoto').click()
 },2000)
+
+
+})
