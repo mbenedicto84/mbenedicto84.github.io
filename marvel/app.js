@@ -39,7 +39,7 @@ $closeBtn2.on('click', closeModal2);
 
 //--------------------------------------------------------------Ajax form submission
   $('form').on('submit',(event) => {
-    
+
   const character = $('input[type="text"]').val();
   event.preventDefault()
 
@@ -76,6 +76,11 @@ $closeBtn2.on('click', closeModal2);
     }
   })
   })
+//------------------------------------------------------------Clear input text upon click
+
+$('input:text').focus (function(){
+$(this).val('');
+    });
 
 //------------------------------------------------------------Superpower
 
