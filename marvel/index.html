@@ -25,7 +25,7 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html" target="_blank">HOME</a>
+                <a href="index.html" target="">HOME</a>
             </li>
             <li>
                 <a href="https://en.wikipedia.org/wiki/List_of_Marvel_Comics_characters" target="_blank">LIST OF CHARACTER</a>
@@ -35,30 +35,19 @@
             </li>
         </ul>
     </nav>
+
     <div class="container">
-      <div class="carousel-container">
-
-                    <div class="carousel-button previousphoto">
-
-
-                    </div>
-
-                    <div class="marvel-images">
-                    <img src="img/battle.jpg" alt="marvel battle">
-                    <img src="img/big3.jpg" alt="big 3">
-                    <img src="img/spider.jpg" alt="spider-man">
-                    </div>
-
-                    <div class="carousel-button nextphoto">
-
-                    </div>
-                    </div>
-      <div class="formie">
-        <form class="find">
-            <input id='marvelfind' name="hero" type="text" value="Find Your Hero!!"><br>
-            <input id='marvelbtn' type="submit" value="Submit"> <button id="openModal">MISSION INFO !!!</button>
-        </form>
-      </div>
+        <div class="carousel-container">
+            <div class="carousel-button previousphoto"></div>
+            <div class="marvel-images"><img alt="marvel battle" src="img/battle.jpg"> <img alt="big 3" src="img/big3.jpg"> <img alt="spider-man" src="img/spider.jpg"></div>
+            <div class="carousel-button nextphoto"></div>
+        </div>
+        <div class="formie">
+            <form class="find">
+                <input id='marvelfind' name="hero" type="text" value="Find Your Hero!!"><br>
+                <Button id='marvelbtn' type="submit" value="Submit">SUBMIT</Button> <button id="openModal">MISSION INFO !!!</button>
+            </form>
+        </div>
         <div class="info">
             <div class="section1">
                 <div class="hulk">
@@ -96,6 +85,7 @@
         <div class="made">
             MADE BY YOUR FRIENDLY NEIGHBORHOOD DEVELOPER
         </div>
+        <div><img alt="shield" class="shield rotate-center" src="img/shield.png" width="40px"></div>
     </footer>
 </body>
 </html>
