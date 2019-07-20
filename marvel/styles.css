@@ -295,7 +295,6 @@ input {
 }
 .carousel-button {
     align-self: center;
-    background: white;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
@@ -303,7 +302,6 @@ input {
 }
 .carousel-button:hover {
     cursor: pointer;
-    background: red;
     color: white;
 }
 /* Responsive layout */
