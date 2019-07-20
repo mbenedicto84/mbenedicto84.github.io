@@ -87,7 +87,7 @@ $(this).val('');
 
 
 
-$('button').on('click',(event) => {
+$('form').on('submit',(event) => {
 
 const name = $('input[type="text"]').val();
 
