@@ -44,7 +44,7 @@ $closeBtn2.on('click', closeModal2);
 
 
   $.ajax({
-      url:'http://gateway.marvel.com/v1/public/characters?ts=thesoed&apikey=d46dd7f46b99a19182859d3ef5c9b862&hash=f34a04018516c1859aec3fcd30d5b44d&name=' + character,
+      url:'https://gateway.marvel.com/v1/public/characters?ts=thesoed&apikey=d46dd7f46b99a19182859d3ef5c9b862&hash=f34a04018516c1859aec3fcd30d5b44d&name=' + character,
       success: (data)=>{
         for (var i = 0; i < 20; i++) {
             image = (data.data.results[0].thumbnail.path)
