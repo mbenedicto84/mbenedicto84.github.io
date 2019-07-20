@@ -83,7 +83,7 @@ $('button').on('click',(event) => {
 
 const name = $('input[type="text"]').val();
 
-var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "The Infinity Stones", "Adamantium Claws", "Super Soldier", "Super Secret Agent" ]
+var superPower = ['Flight','Super Strength',"X Ray Vision","Invulnerability", "Super Intellect","Super Speed","Telekinis","Psychic Ability","Healing Ability", "Master Of Machines", "The Infinity Stones", "Adamantium Claws", "Super Soldier", "Super Secret Agent", "Invisibility" ]
 
 const flight = superPower[Math.floor(Math.random()*superPower.length)];
 
