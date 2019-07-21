@@ -64,7 +64,8 @@ input {
 /* ================================================== */
 
 #name {
-    font-size: 1.6em;
+    font-size: 2.6em;
+    color: red;
 }
 .nav2 {
     background-color: black;
@@ -95,6 +96,7 @@ input {
 .ironman {
     margin: 0 auto;
     text-align: center;
+    margin-top: 30px;
 }
 .made {
     margin: 20px;
@@ -184,6 +186,35 @@ margin: 19px;
     -webkit-animation: rotate-center 0.6s ease-in-out both;
     animation: rotate-center 0.6s ease-in-out both;
     animation-delay: 3s;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  background-image: url('img/bubble.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: black;
+  padding: 20px;
+}
+
+.thought {
+  display: flex;
+  justify-content: center;
+  background-image: url('img/thought.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+h1.bio{
+  color: black;
+  padding: 20px;
 }
 /* ======================modal=========================== */
 
@@ -297,7 +328,6 @@ margin: 19px;
 .carousel-button {
     align-self: center;
     padding: 10px;
-    border-radius: 50%;
     text-align: center;
     margin: 10px;
 }
@@ -317,6 +347,17 @@ margin: 19px;
       background-color: white;
       font-size: 3vw
   }
+
+  .thought {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/thought.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 232px;
+    color: black;
+    padding: 20px;
+}
 
   #marvelfind {
     padding: 10px;
@@ -344,8 +385,10 @@ margin: 19px;
 }
 
   #bio {
-    font-size: 30px;
+    font-size: 36px;
+    color: red:
   }
+
 
   #openModal {
       background-color: red;
