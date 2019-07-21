@@ -162,6 +162,18 @@ input {
   padding: 10px;
 }
 
+.button {
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
 #marvelbtn {
     background-color: red;
     width: 100px;
@@ -233,6 +245,15 @@ h1.bio{
   color: black;
   padding: 20px;
 }
+
+.hawkeye{
+  display: none;
+}
+
+.hawkeye2{
+  display: block;
+}
+
 /* ======================modal=========================== */
 
 #close {

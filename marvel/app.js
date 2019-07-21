@@ -149,5 +149,10 @@ setInterval(function(
 $('.nextphoto').click()
 },2000)
 
+//----------------tottle Button
+$('.button').click(function() {
+  $('.hawkeye').toggle();
+});
+
 
 })
