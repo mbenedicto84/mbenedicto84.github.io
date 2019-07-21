@@ -127,6 +127,7 @@ input {
     text-align: center;
     padding: 30px;
     width: 350px;
+    min-height: 350px;
 }
 .fluid {
     display: flex;
@@ -338,6 +339,7 @@ margin: 19px;
     text-align: center;
     padding: 30px;
     width: 450px;
+    min-height: 350px;
     font-size: 25px;
 }
 
