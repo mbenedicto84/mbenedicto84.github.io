@@ -192,9 +192,10 @@ margin: 19px;
   display: flex;
   justify-content: center;
   background-image: url('img/bubble.png');
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 200px;
+  height: 175px;
   color: black;
   padding: 20px;
 }
@@ -203,14 +204,30 @@ margin: 19px;
   display: flex;
   justify-content: center;
   background-image: url('img/thought.png');
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 200px;
+  height: 175px;
+  width: 100%;
   color: black;
   padding: 20px;
   margin-bottom: 20px;
 
 }
+.square {
+  display: flex;
+  justify-content: center;
+  background-image: url('img/square.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 175px;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
 
 h1.bio{
   color: black;
@@ -423,8 +440,12 @@ h1.bio{
 
 
     .section1 {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column nowrap;
+      margin-bottom: 200px;
+      padding: 30px
     }
     .section2 {
         display: flex;
