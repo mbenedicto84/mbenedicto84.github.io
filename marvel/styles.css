@@ -209,7 +209,7 @@ input {
 }
 .panel {
     background-color: #ffffe6;
-    border: 4px solid #999999;
+    border: 4px solid black;
     color: black;
     font-family: 'Comic Sans', cursive;
 }
