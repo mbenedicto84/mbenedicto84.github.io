@@ -71,7 +71,7 @@ $closeBtn2.on('click', closeModal2);
             name = (data.data.results[0].name)
 
             if (data.data.results[0].description == ""){
-      $('#bio').append('<span>Bio Not Found</span>');
+      $('#bio').append('<span>Biography Not Found</span>');
             }
 
 
