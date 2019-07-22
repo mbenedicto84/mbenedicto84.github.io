@@ -69,11 +69,11 @@ $closeBtn2.on('click', closeModal2);
             $div.append( '<div>' ).html(data.data.results[0].events.items[i].name);
             $('#image').html('<img src="'+image+'.jpg">');
             name = (data.data.results[0].name)
-
+//----------------------------------------------------------------- call back if there is no info dsiplay
             if (data.data.results[0].description == ""){
       $('#bio').append('<span>Biography Not Found</span>');
             }
-
+//-----------------------------------------------------------------
 
 
 

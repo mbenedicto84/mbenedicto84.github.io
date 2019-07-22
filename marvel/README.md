@@ -5,6 +5,7 @@ Marvel Project
 3. used html and css to style the page thus allowing the user to see information.
 4. used a modal to explain to the user the functionality of the page.
 5. added user nav and links to give user list of characters and added feature.
+6. added a page for super hero power using array to math random generate a power for user to receive power
 
 Installation:
 
