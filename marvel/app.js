@@ -151,7 +151,7 @@ $('.nextphoto').click()
 
 //----------------tottle Button
 $('.button').click(function() {
-  $('.hawkeye').toggle( "slow");
+  $('.hawkeye').slideToggle("slow" );
 });
 
 
